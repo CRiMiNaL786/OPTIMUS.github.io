@@ -1,0 +1,53 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features li {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.features i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.how-it-works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.how-it-works li {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.how-it-works i {
+    font-size: 24px;
+    margin-right: 10px;
+}
