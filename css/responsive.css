@@ -1,0 +1,116 @@
+/* Mobile Devices */
+@media (max-width: 480px) {
+    /* Navigation */
+    nav {
+        height: 40px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    nav ul li a {
+        padding: 10px 20px;
+    }
+
+    /* Main Content */
+    main {
+        flex-direction: column;
+    }
+    main section {
+        padding: 20px;
+    }
+    main h1 {
+        font-size: 18px;
+    }
+    main p {
+        font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Navigation */
+    nav {
+        height: 50px;
+    }
+    nav ul {
+        flex-direction: row;
+    }
+    nav ul li {
+        margin: 10px 20px;
+    }
+    nav ul li a {
+        padding: 10px 30px;
+    }
+
+    /* Main Content */
+    main {
+        flex-direction: row;
+    }
+    main section {
+        padding: 30px;
+    }
+    main h1 {
+        font-size: 20px;
+    }
+    main p {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 20px;
+    }
+    footer p {
+        font-size: 14px;
+    }
+}
+
+/* Desktops */
+@media (min-width: 769px) {
+    /* Navigation */
+    nav {
+        height: 60px;
+    }
+    nav ul {
+        flex-direction: row;
+    }
+    nav ul li {
+        margin: 10px 30px;
+    }
+    nav ul li a {
+        padding: 10px 40px;
+    }
+
+    /* Main Content */
+    main {
+        flex-direction: row;
+    }
+    main section {
+        padding: 40px;
+    }
+    main h1 {
+        font-size: 24px;
+    }
+    main p {
+        font-size: 18px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px;
+    }
+    footer p {
+        font-size: 16px;
+    }
+}
